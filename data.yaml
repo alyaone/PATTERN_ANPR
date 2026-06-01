@@ -1,0 +1,15 @@
+# The absolute path to your nested dataset folder
+path: C:/Users/Alyapresilis/Documents/Kuliah Elins/SEMESTER 6/Pengenalan Pola/Project_UAS/dataset/plate_detection_dataset/plate_detection_dataset
+
+# Point directly to where your train and val splits are located inside your folders
+# (Assuming inside your 'images' and 'annotations' folders you have 'train' and 'val' subfolders)
+train: images/train
+val: images/val
+
+# Tell YOLO how your directories are named so it can find the text files
+# YOLO will look into 'annotations' instead of searching for a default 'labels' folder
+names:
+  0: plate
+
+# Number of classes
+nc: 1
